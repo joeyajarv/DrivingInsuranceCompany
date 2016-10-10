@@ -7,7 +7,6 @@
 
 "use strict";
 const PROMPT = require('readline-sync');
-
 const CURRENT_YEAR = 2016;
 
 let continueResponse;
@@ -113,8 +112,3 @@ function printGoodbye() {
     process.stdout.write('\x1Bc'); //Clears the screen
     console.log(`\n\tGoodbye.`);
 }
-
-/*
- This program is designed to prompt customer for basic information about their dog, calculate the price, then output
- the total bill.
- */
